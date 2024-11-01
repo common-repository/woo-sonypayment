@@ -1,0 +1,154 @@
+.spfwc-settlement-admin,
+.order-spfwc-status {
+	line-height: 2.5em;
+	padding: 0 1em;
+	max-width: 100%;
+	background-color: #093;
+	color: #fff;
+	text-align: center;
+	border-radius: 4px;
+	cursor: inherit!important;
+	white-space: nowrap;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-overflow: ellipsis;
+}
+.spfwc-settlement-admin {
+	display: block;
+}
+.order-spfwc-status {
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	margin: -.25em 0;
+	border-bottom: 1px solid rgba(0,0,0,.3);
+}
+.card-capture,
+.card-gathering,
+.cvs-paid {
+	background-color: #0085ba;
+}
+.cvs-chg {
+	background-color: #dd823b;
+}
+.card-delete,
+.cvs-del {
+	background-color: #60646c;
+}
+.card-error,
+.cvs-error,
+.cvs-unpaid,
+.cvs-expired {
+	background-color: #c00;
+}
+.spfwc-settlement-admin-button .button {
+	margin-right: 1em;
+}
+#spfwc-settlement-actions table {
+	width: 100%;
+	color:  #888;
+}
+#spfwc-settlement-actions th {
+	/* padding-right: .5em; */
+	width: 40%;
+	text-align: right;
+}
+#spfwc-settlement-actions td {
+	width: 60%;
+	text-align: left;
+}
+
+table.spfwc-settlement-admin-table,
+table.spfwc-settlement-admin-table th,
+table.spfwc-settlement-admin-table td,
+table.spfwc-settlement-history,
+table.spfwc-settlement-history th,
+table.spfwc-settlement-history td {
+	border-collapse: collapse;
+	border: 1px #e5e5e5 solid;
+}
+table.spfwc-settlement-history>tbody>:nth-child(even) {
+	background-color: #f9f9f9;
+}
+table.spfwc-settlement-admin-table,
+table.spfwc-settlement-history {
+	margin: 1em 0;
+	width: 100%;
+}
+table.spfwc-settlement-admin-table th,
+table.spfwc-settlement-admin-table td {
+	padding: .5em 1em;
+}
+table.spfwc-settlement-history th,
+table.spfwc-settlement-history td {
+	padding: 1em .5em;
+}
+table.spfwc-settlement-admin-table th,
+table.spfwc-settlement-history th {
+	background-color: #f9f9f9;
+}
+table.spfwc-settlement-admin-table th {
+	width: 30%;
+	text-align: left;
+}
+table.spfwc-settlement-history .num,
+table.spfwc-settlement-history .operateid,
+table.spfwc-settlement-history .responsecd {
+	text-align: center;
+}
+table.spfwc-settlement-history .num {
+	width: 2em;
+}
+table.spfwc-settlement-history .responsecd {
+	width: 6em;
+	color: #093;
+}
+.spfwc-settlement-admin-error {
+	margin: .7em 0 1em;
+	padding: .5em 1em;
+	width: 100%;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #ffe6ea;
+}
+.spfwc-settlement-admin-expired {
+	margin: .7em 0 1em;
+	padding: .5em 1em;
+	width: 100%;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #f0f8ff;
+}
+.spfwc-settlement-history-body .error,
+table.spfwc-settlement-history .responsecd.error {
+	color: #f00;
+}
+table#sonypayment-cvs-fee-table tr.current-row td {
+	background-color: #fefbcc;
+}
+
+/* a added style in 20201124 */
+.spfwc-dialog .ui-button-icon.ui-icon.ui-icon-closethick {
+	display: none;
+}
+.spfwc-dialog .ui-button.ui-corner-all.ui-widget.ui-button-icon-only.ui-dialog-titlebar-close {
+	overflow: hidden;
+}
+.spfwc-dialog .ui-button.ui-corner-all.ui-widget.ui-button-icon-only.ui-dialog-titlebar-close:before {
+	line-height: 1;
+}
+.spfwc-dialog.ui-dialog .ui-dialog-buttonpane button {
+	padding: 0 10px;
+}
+.spfwc-dialog {
+	transform: translate(-50%, -50%) !important;
+	left: 50% !important;
+	width: 90% !important;
+	max-width: 700px;
+}

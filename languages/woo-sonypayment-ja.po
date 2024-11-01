@@ -1,0 +1,1625 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sony Payment Services pro for WooCommerce\n"
+"POT-Creation-Date: 2018-05-01 17:55:32+00:00\n"
+"PO-Revision-Date: 2024-06-17 15:01+0900\n"
+"Last-Translator: Welcart Inc. <info@welcart.com>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: woo-sonypayment.php
+msgid "When using Sony Payment Services, the payment of credit card, convenience store, bank ATM, online banking will be available."
+msgstr "ソニーペイメントサービスを利用すると、クレジットカード、コンビニエンスストア、銀行ATM、オンラインバンキングでのお支払いが可能となります。"
+
+#: includes/class-spfwc.php
+msgid "Settings"
+msgstr "設定"
+
+msgid "SonyPayment"
+msgstr "ソニーペイメント"
+
+msgid "SonyPayment Online Payment Collection Agency Service"
+msgstr "ソニーペイメント オンライン収納代行サービス"
+
+msgid "The %1$s version could not be activated because the %2$s version has been activated. The light version and the pro version cannot be activated at the same time."
+msgstr "%2$s版が有効化されているため、%1$s版を有効化できませんでした。light版とpro版は同時に有効化することができません。"
+
+#: includes/class-spfwc-admin-order.php
+msgid "Payment Status"
+msgstr "決済ステータス"
+
+msgid "Receipt Status"
+msgstr "入金ステータス"
+
+msgid "New"
+msgstr "新規"
+
+msgid "Spending amount (%s)"
+msgstr "利用金額 (%s)"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Not registered of card member information"
+msgstr "カード会員情報未登録"
+
+msgid "Recorded date of sales"
+msgstr "売上計上日"
+
+msgid "Expired the due date of handling."
+msgstr "取り扱いできる期限を過ぎています。"
+
+msgid "Repayment"
+msgstr "再決済"
+
+msgid "Payment error"
+msgstr "決済エラー"
+
+msgid "Payment deadline"
+msgstr "支払期日"
+
+msgid "Payment amount (%s)"
+msgstr "支払い金額 (%s)"
+
+msgid "Unpaid"
+msgstr "未入金"
+
+msgid "Canceled"
+msgstr "取消済み"
+
+msgid "Paid"
+msgstr "入金済"
+
+msgid "Receipt number"
+msgstr "受付番号"
+
+msgid "Deposit date and time"
+msgstr "入金日時"
+
+msgid "Convenience store name"
+msgstr "収納機関"
+
+msgid "(Expired)"
+msgstr "（期限切れ）"
+
+msgid "Are you sure you want to execute a processing sales recording?"
+msgstr "売上計上処理を実行します。よろしいですか？"
+
+msgid "Are you sure you want to a processing of cancellation?"
+msgstr "取消処理を実行します。よろしいですか？"
+
+msgid "The spending amount format is incorrect. Please enter with numeric value."
+msgstr "利用金額の形式が不正です。数値で入力してください。"
+
+msgid "Are you sure you want to change the spending amount?"
+msgstr "利用金額の変更処理を実行します。よろしいですか？"
+
+msgid "Are you sure you want to execute a processing of credit?"
+msgstr "与信処理を実行します。よろしいですか？"
+
+msgid "Are you sure you want to execute a processing of credit sales recording?"
+msgstr "与信売上計上処理を実行します。よろしいですか？"
+
+msgid "Are you sure you want to a processing of re-authorization?"
+msgstr "再オーソリ処理を実行します。よろしいですか？"
+
+msgid "The format of payment due date is incorrect. Please enter with 8 digit number."
+msgstr "支払期限の形式が不正です。８桁の数字で入力してください。"
+
+msgid "The payment due date is incorrect. Past day is not available."
+msgstr "支払期限が不正です。本日以前の日付は指定できません。"
+
+msgid "The format of payment amount is incorrect. Please enter with numeric value."
+msgstr "支払額の形式が不正です。数値で入力してください。"
+
+msgid "Are you sure you want to execute a processing of changing payment due date and payment amount?"
+msgstr "支払期限・支払額の変更処理を実行します。よろしいですか？"
+
+msgid "Are you sure you want to execute a processing of registration?"
+msgstr "登録処理を実行します。よろしいですか？"
+
+msgid "Transaction date"
+msgstr "決済日時"
+
+msgid "Transaction code"
+msgstr "決済コード"
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "Info"
+msgstr "決済情報"
+
+msgid "Processing date"
+msgstr "処理日時"
+
+msgid "Sequence number"
+msgstr "処理連番"
+
+msgid "Processing classification"
+msgstr "処理区分"
+
+msgid "Result"
+msgstr "処理結果"
+
+msgid "3D Secure result code"
+msgstr "3D認証結果"
+
+msgid "%s is completed."
+msgstr "%sが完了しました。"
+
+#: includes/class-spfwc-card-member.php includes/class-spfwc-exception.php
+#: includes/class-spfwc-install.php includes/class-spfwc-logger.php
+#: includes/class-spfwc-myaccount.php
+msgid "Update credit card"
+msgstr "クレジットカード更新"
+
+msgid "Save credit card"
+msgstr "クレジットカード登録"
+
+msgid "Card number"
+msgstr "カード番号"
+
+msgid "Expiry (MM/YY)"
+msgstr "有効期限(月/年)"
+
+msgid "Card code"
+msgstr "セキュリティーコード"
+
+msgid "Card name"
+msgstr "カード名義"
+
+msgid "%s is a required field."
+msgstr "%sは必須項目です。"
+
+msgid "Card member does not found."
+msgstr "カード会員情報が見つかりません。"
+
+msgid "Card member updated successfully."
+msgstr "カード会員情報を更新しました。"
+
+msgid "Failed updating card number."
+msgstr "カード会員情報の変更に失敗しました。"
+
+msgid "Card member saved successfully."
+msgstr "カード会員情報を登録しました。"
+
+msgid "Failed saving card member."
+msgstr "カード会員情報の登録に失敗しました。"
+
+msgid "Card member deleted successfully."
+msgstr "カード会員情報を削除しました。"
+
+msgid "Failed deleting card member."
+msgstr "カード会員情報の削除に失敗しました。"
+
+msgid "Are you sure you want to delete card member?"
+msgstr "カード会員情報を削除してもよろしいですか？"
+
+#: includes/class-spfwc-payment-gateway.php
+msgid "Contract with Sony Payment Services, credit card payment will be available."
+msgstr "ソニーペイメントサービスとのご契約で、クレジットカードでのお支払いが可能となります。"
+
+msgid "Continue to payment"
+msgstr "支払いを続ける"
+
+msgid "Gateway disabled"
+msgstr "ゲートウェイが無効"
+
+msgid "SonyPayment does not support your store currency."
+msgstr "ソニーペイメントでは、あなたのショップの通貨をサポートしていません。"
+
+msgid "Enable/Disable"
+msgstr "有効化/無効化"
+
+msgid "Enable SonyPayment"
+msgstr "ソニーペイメントを有効化"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "This controls the title which the user sees during checkout."
+msgstr "ここで、ユーザーがチェックアウト時に見るタイトルを設定します。"
+
+msgid "Credit Card"
+msgstr "クレジットカード"
+
+msgid "Description"
+msgstr "説明"
+
+msgid "This controls the description which the user sees during checkout."
+msgstr "ここで、ユーザーがチェックアウト時に見る説明を設定します。"
+
+msgid "Pay with your credit card."
+msgstr "クレジットカードで支払う"
+
+msgid "Test mode"
+msgstr "テストモード"
+
+msgid "Enable Test mode"
+msgstr "テストモードを有効化"
+
+msgid "Connect to test environment and run in test mode."
+msgstr "テスト環境に接続し、テストモードで稼働します。"
+
+msgid "Connect type"
+msgstr "接続方式"
+
+msgid "Connect with External link type"
+msgstr "外部リンク型で接続する"
+
+msgid "In case of external link type, a processing of payment runs after transitioning to the payment screen of SonyPayment. In case of usual, it completes in store's site only."
+msgstr "外部リンク型では、ソニーペイメントの決済画面に遷移して支払いを行います。通常はショップのサイト内で支払いが完結します。"
+
+msgid "Merchant ID"
+msgstr "マーチャントID"
+
+msgid "Enter 'Merchant ID' (single-byte numbers only) issued from Sony Payment Services."
+msgstr "契約時にソニーペイメントサービスから発行されるマーチャントID（半角数字）を入力してください。"
+
+msgid "Merchant Password"
+msgstr "マーチャントパスワード"
+
+msgid "Enter 'Merchant Password' (single-byte alphanumeric characters only) issued from Sony Payment Services."
+msgstr "契約時にソニーペイメントサービスから発行されるマーチャントパスワード（半角英数字）を入力してください。"
+
+msgid "Tenant ID"
+msgstr "店舗コード"
+
+msgid "Enter 'Tenant ID' issued from Sony Payment Services. If the number of contracting shop is only one, enter '0001'."
+msgstr "契約時にソニーペイメントサービスから発行される店舗コードを入力してください。契約するショップがひとつだけの場合は、0001 と入力してください。"
+
+msgid "Settlement auth key"
+msgstr "決済認証キー"
+
+msgid "Enter 'Settlement auth key' (single-byte numbers only) issued from Sony Payment Services."
+msgstr "契約時にソニーペイメントサービスから発行される決済認証キー（半角数字）を入力してください。"
+
+msgid "Token settlement auth code"
+msgstr "トークン決済認証コード"
+
+msgid "Enter 'Token settlement auth code' (single-byte alphanumeric characters only) issued from Sony Payment Services."
+msgstr "契約時にソニーペイメントサービスから発行されるトークン決済認証コード（半角英数字）を入力してください。"
+
+msgid "3D Secure"
+msgstr "3Dセキュア"
+
+msgid "Use 3D Secure authentication"
+msgstr "3Dセキュア認証を利用する"
+
+msgid "3D Secure Authentication for Settlement. To use it, you need to apply to Sony Payment Services."
+msgstr "決済時の3Dセキュア認証。利用する場合はソニーペイメントサービスに申請する必要があります。"
+
+msgid "Encryption Key"
+msgstr "暗号化キー"
+
+msgid "Enter 'Encryption Key' (single-byte alphanumeric characters only) issued from Sony Payment Services."
+msgstr "契約時にソニーペイメントサービスから発行される暗号化キー（半角英数字）を入力してください。"
+
+msgid "Initialization Vector"
+msgstr "初期化ベクトル"
+
+msgid "Enter 'Initialization Vector' (single-byte alphanumeric characters only) issued from Sony Payment Services."
+msgstr "契約時にソニーペイメントサービスから発行される初期化ベクトル（半角英数字）を入力してください。"
+
+msgid "If you want to use 3D Secure Authentication or External Link Type Payment, please apply to Sony Payment Services."
+msgstr "3Dセキュア認証もしくは外部リンク型決済を利用したい場合は、ソニーペイメントサービスにお申し込みください。"
+
+msgid "Security code (authentication assist)"
+msgstr "セキュリティコード（認証アシスト）"
+
+msgid "Use authentication of Security code (authentication assist)"
+msgstr "セキュリティコードの認証を利用する"
+
+msgid "Use 'Security code' of authentication assist matching. If you don't use it, please set 'Do not use Matching Verify' on the e-SCOTT admin page."
+msgstr "認証アシストマッチングの「セキュリティコード」を利用します。利用しない場合、e-SCOTT の管理画面でも「マッチング検証しない」に設定してください。"
+
+msgid "Card Members"
+msgstr "カード会員"
+
+msgid "Enable payment via saved card"
+msgstr "登録済みカードでの支払いを有効化"
+
+msgid "When this is enabled, members can pay with saved card. Card number will be registered in SonyPayment, not in your store."
+msgstr "有効にすると、ユーザーは購入の際に登録済みのカードで支払うことができます。カード情報はあなたのショップではなく、ソニーペイメントに登録されます。"
+
+msgid "Always registering as a card member"
+msgstr "常にカード会員に登録"
+
+msgid "If this is enabled, the members can not choose the option which they won't register the credit card."
+msgstr "有効にすると、会員はカード番号を登録しないことを選択できません。"
+
+msgid "Operation mode"
+msgstr "処理区分"
+
+msgid "In case of 'Credit' setting, it need to change to 'Sales recorded' manually in later. In case of 'Credit sales recorded' setting, sales will be recorded at the time of purchase."
+msgstr "「与信」に設定する場合は、後から手動で「売上計上」する必要があります。「与信売上計上」に設定する場合は、購入時に売上が計上されます。"
+
+msgid "The number of installments"
+msgstr "支払回数"
+
+msgid "Lump-sum payment only"
+msgstr "一括払いのみ"
+
+msgid "Enable installment payments"
+msgstr "分割払いを有効にする"
+
+msgid "Enable installment payments and bonus payments"
+msgstr "分割払いとボーナス払いを有効にする"
+
+msgid "Allow customer to choose the number of installment payments. In case of External link type,lump-sum payment only available."
+msgstr "購入時にユーザーが支払回数を選択できるようにします。外部リンク型で利用する場合は、一括払いのみとなります。"
+
+msgid "Save the log"
+msgstr "ログを保存"
+
+msgid "Save the log of payment results"
+msgstr "支払い結果通知ログを保存"
+
+msgid "Save the log of payment results to WooCommerce System Status log."
+msgstr "WooCommerce システムステータスログに支払い結果通知ログを保存します。"
+
+msgid "TESTMODE RUNNING."
+msgstr "※テストモードで稼働中"
+
+msgid "MM"
+msgstr "MM"
+
+msgid "YY"
+msgstr "YY"
+
+msgid "Using the saved credit card."
+msgstr "登録済みのカードで支払う"
+
+msgid "Last 4 digits of the saved card number: "
+msgstr "登録済みのカード番号の下4桁："
+
+msgid "Using a new credit card."
+msgstr "新しいカードを使用する"
+
+msgid "Change the saved credit card and pay."
+msgstr "登録済みのカードを変更して支払う"
+
+msgid "Change the saved card information and pay."
+msgstr "登録済みのカード情報を変更して支払います。"
+
+msgid "Save the card information to your account data. You won't need to input the card number from next purchases."
+msgstr "お支払い情報を登録します。次回のご利用からカード番号の入力の必要がなくなります。"
+
+msgid "Lump-sum payment"
+msgstr "一括払い"
+
+msgid "-installments"
+msgstr "回払い"
+
+msgid "Revolving payment"
+msgstr "リボ払い"
+
+msgid "Pay for it out of a bonus"
+msgstr "ボーナス一括払い"
+
+msgid "Select the card to use for payment."
+msgstr "お支払いに使用するカードを選択してください。"
+
+msgid "The card number is not a valid credit card number."
+msgstr "カード番号が有効なクレジットカード番号ではありません。"
+
+msgid "The card number is incorrect."
+msgstr "カード番号が正しくありません。"
+
+msgid "The card's expiration month is invalid."
+msgstr "カードの有効期限の月が不正です。"
+
+msgid "The card's expiration year is invalid."
+msgstr "カードの有効期限の年が不正です。"
+
+msgid "The card's security code is invalid."
+msgstr "カードのセキュリティコードが不正です。"
+
+msgid "Your credit card information is incorrect."
+msgstr "クレジットカード情報に誤りがあります。"
+
+msgid "Payment processing failed. Please retry."
+msgstr "支払い処理に失敗しました。再度お試しください。"
+
+msgid "Paymeint is completed."
+msgstr "お支払いが完了しました。"
+
+msgid "Please wait a moment."
+msgstr "そのまましばらくお待ちください。"
+
+msgid "Failed to return from 3D Secure authentication."
+msgstr "3Dセキュア認証からの復帰に失敗しました。"
+
+#: includes/class-spfwc-payment-gateway-cvs.php
+msgid "When you contract with Sony Payment Services, the payment of convenience store, bank ATM, online banking will be available. Note that sole proprietorship can not be accepted."
+msgstr "ソニーペイメントサービスとのご契約で、コンビニエンスストア、銀行ATM、オンラインバンキングでのお支払いが可能となります。ただし、個人事業主様のお申込みはお受けできません。"
+
+msgid "Enable SonyPayment Online Payment Collection Agency Service"
+msgstr "ソニーペイメント オンライン収納代行サービスを有効化"
+
+msgid "Convenience store / Electronic money / Pay-easy"
+msgstr "コンビニ・電子マネー・Pay-easy"
+
+msgid "Pay by convenience store / Electronic money / Pay-easy"
+msgstr "コンビニ・電子マネー・Pay-easy で支払う"
+
+msgid "Due date for payment"
+msgstr "支払期限日数"
+
+msgid "Enter 'Due date for payment'. The date on which the number of days specified from the purchase has passed is the payment deadline."
+msgstr "支払期限日数を入力してください。ご購入から指定の日数後が、お支払い期限日となります。"
+
+msgid "Please enter billing last name (kana)."
+msgstr "請求先姓（カナ）を入力してください。"
+
+msgid "Please enter billing first name (kana)."
+msgstr "請求先名（カナ）を入力してください。"
+
+msgid " etc."
+msgstr "、他"
+
+msgid "..."
+msgstr "…"
+
+msgid "Awaiting payment of online"
+msgstr "オンライン収納入金待ち"
+
+msgid "Payment procedure is completed."
+msgstr "お支払い手続きが完了しました。"
+
+msgid "Payment method"
+msgstr "お支払い方法"
+
+msgid "The due date of the payment"
+msgstr "お支払い期限日"
+
+msgid "If the payment has not been completed yet, please proceed the payment process from the following URL."
+msgstr "まだお支払いが完了していない場合は、以下のURLからお支払いの手続きをお願いいたします。"
+
+msgid "Payment URL"
+msgstr "お支払いURL"
+
+msgid "Settlement fee"
+msgstr "決済手数料"
+
+msgid "Settlement fee (tax included)"
+msgstr "決済手数料（税込）"
+
+msgid "It will be added to the total amount as a settlement fee."
+msgstr "決済手数料として合計金額に加算します。"
+
+msgid "Please set the settlement fee by the amount including tax. In case of the the online payment collection agency, the settlement fee is added to the total amount which is included shipping and consumption tax."
+msgstr "決済手数料は税込金額で設定してください。決済手数料は送料・消費税を含む合計金額に対して、オンライン収納代行の決済金額に加算されます。"
+
+msgid "Set the settlement fee"
+msgstr "決済手数料を設定する"
+
+msgid "Total Amount (From:)"
+msgstr "合計金額（～から）"
+
+msgid "Total Amount (To:)"
+msgstr "合計金額（～まで）"
+
+msgid "* A settlement fee of <strong>%s</strong> will be added at the time of settlement."
+msgstr "※決済時に決済手数料 <strong>%s</strong> が加算されます。"
+
+#: includes/class-spfwc-payment-gateway-subscriptions.php
+msgid "Subscription payment processing failed."
+msgstr "定期購入支払い処理に失敗しました。"
+
+msgid "Subscriptions operation mode"
+msgstr "定期購入処理区分"
+
+msgid "Setting up the operation mode of the subscription."
+msgstr "定期購入支払い時の処理区分を設定します。"
+
+msgid "In case of 'Credit' setting, it need to change to 'Sales recorded' manually in later. In case of 'Credit sales recorded' setting, sales will be recorded at the time of subscription purchase."
+msgstr "「与信」に設定する場合は、後から手動で「売上計上」する必要があります。「与信売上計上」に設定する場合は、定期購入支払い時に売上が計上されます。"
+
+msgid "Please be sure to enable when using the subscription."
+msgstr "定期購入を利用する場合は、必ず有効化してください。"
+
+# K01
+#: includes/class-spfwc-payment-logger.php
+#: includes/class-spfwc-payment-message.php
+msgid "Online trading message scrutiny error"
+msgstr "オンライン取引電文精査エラー"
+
+# K02
+msgid "'MerchantId' scrutiny error"
+msgstr "項目「MerchantId」精査エラー"
+
+# K03
+msgid "'MerchantPass' scrutiny error"
+msgstr "項目「MerchantPass」精査エラー"
+
+# K04
+msgid "'TenantId' scrutiny error"
+msgstr "項目「TenantId」精査エラー"
+
+# K05
+msgid "'TransactionDate' scrutiny error"
+msgstr "項目「TransactionDate」精査エラー"
+
+# :K06
+msgid "'OperateId' scrutiny error"
+msgstr "項目「OperateId」精査エラー"
+
+# K07
+msgid "'MerchantFree1' scrutiny error"
+msgstr "項目「MerchantFree1」精査エラー"
+
+# K08
+msgid "'MerchantFree2' scrutiny error"
+msgstr "項目「MerchantFree2」精査エラー"
+
+# K09
+msgid "'MerchantFree3' scrutiny error"
+msgstr "項目「MerchantFree3」精査エラー"
+
+# K10
+msgid "'ProcessId' scrutiny error"
+msgstr "項目「ProcessId」精査エラー"
+
+# K11
+msgid "'ProcessPass' scrutiny error"
+msgstr "項目「ProcessPass」精査エラー"
+
+# K12
+msgid "'ProcessId' or 'ProcessPass' inconsistency error"
+msgstr "項目「ProcessId」または「ProcessPass」不整合エラー"
+
+# K14
+msgid "Transition inconsistency of OperateId status"
+msgstr "OperateId のステータス遷移不整合"
+
+# K15
+msgid "Error of the numbers of members subject to return on membership reference (same card number return)"
+msgstr "会員参照（同一カード番号返戻）時の返戻対象会員数エラー"
+
+# K20
+msgid "'CardNo' scrutiny error"
+msgstr "項目「CardNo」精査エラー"
+
+# K21
+msgid "'CardExp' scrutiny error"
+msgstr "項目「CardExp」精査エラー"
+
+# K22
+msgid "'PayType' scrutiny error"
+msgstr "項目「PayType」精査エラー"
+
+# K23
+msgid "'Amount' scrutiny error"
+msgstr "項目「Amount」精査エラー"
+
+# K24
+msgid "'SecCd' scrutiny error"
+msgstr "項目「SecCd」精査エラー"
+
+# K28
+msgid "'TelNo' scrutiny error"
+msgstr "項目「TelNo」精査エラー"
+
+# K30
+msgid "'MessageVersionNo3D' scrutiny error"
+msgstr "項目「MessageVersionNo3D」精査エラー"
+
+# K31
+msgid "'TransactionId3D' scrutiny error"
+msgstr "項目「TransactionId3D」精査エラー"
+
+# K32
+msgid "'EncordXId3D' scrutiny error"
+msgstr "項目「EncordXId3D」精査エラー"
+
+# K33
+msgid "'TransactionStatus3D' scrutiny error"
+msgstr "項目「TransactionStatus3D」精査エラー"
+
+# K34
+msgid "'CAVVAlgorithm3D' scrutiny error"
+msgstr "項目「CAVVAlgorithm3D」精査エラー"
+
+# K35
+msgid "'CAVV3D' scrutiny error"
+msgstr "項目「CAVV3D」精査エラー"
+
+# K36
+msgid "'ECI3D' scrutiny error"
+msgstr "項目「ECI3D」精査エラー"
+
+# K37
+msgid "'PANCard3D' scrutiny error"
+msgstr "項目「PANCard3D」精査エラー"
+
+# K39
+msgid "'SalesDate' scrutiny error"
+msgstr "項目「SalesDate」精査エラー"
+
+# K45
+msgid "'KaiinId' scrutiny error"
+msgstr "項目「KaiinId」精査エラー"
+
+# K46
+msgid "'KaiinPass' scrutiny error"
+msgstr "項目「KaiinPass」精査エラー"
+
+# K47
+msgid "'NewKaiinPass' scrutiny error"
+msgstr "項目「NewKaiinPass」精査エラー"
+
+# K48
+msgid "'EnableCheckUseKbn' scrutiny error"
+msgstr "項目「EnableCheckUseKbn」精査エラー"
+
+# K50
+msgid "'PayLimit' scrutiny error"
+msgstr "項目「PayLimit」精査エラー"
+
+# K51
+msgid "'NameKanji' scrutiny error"
+msgstr "項目「NameKanji」精査エラー"
+
+# K52
+msgid "'NameKana' scrutiny error"
+msgstr "項目「NameKana」精査エラー"
+
+# K53
+msgid "'ShouhinName' scrutiny error"
+msgstr "項目「ShouhinName」精査エラー"
+
+# K54
+msgid "'Free1 to 7' scrutiny error"
+msgstr "項目「Free1～7」精査エラー"
+
+# K55
+msgid "'Comment' scrutiny error"
+msgstr "項目「Comment」精査エラー"
+
+# K60
+msgid "'Return URL: ReturnURL' scrutiny error"
+msgstr "項目「戻り先 URL：ReturnURL」精査エラー"
+
+# K68
+msgid "Member registration function is unavailabe."
+msgstr "会員の登録機能は利用できません。"
+
+# K69
+msgid "Duplicate error of member ID"
+msgstr "会員ID の重複エラー"
+
+# K70
+msgid "Member is not in invalid state."
+msgstr "会員が無効状態ではありません。"
+
+# K71
+msgid "Member ID authentication error"
+msgstr "会員ID の認証エラー"
+
+# K73
+msgid "The member is already active."
+msgstr "会員が既に有効となっています。"
+
+# K74
+msgid "Member authentication failed consecutively and was locked out."
+msgstr "会員認証に連続して失敗し、ロックアウトされました。"
+
+# K75
+msgid "The member is not valid."
+msgstr "会員は有効ではありません。"
+
+# K79
+msgid "Member determination error (Login invalid or Member invalid)"
+msgstr "会員判定エラー（Login 無効または会員無効）"
+
+# K80 K81
+msgid "Mismatch of Member ID setting (required the setting)"
+msgstr "会員ID 設定不一致（設定が必要）"
+
+# K82
+msgid "Invalid input contents of card number"
+msgstr "カード番号の入力内容不正"
+
+# K83
+msgid "Invalid input contents of card expiration"
+msgstr "カード有効期限の入力内容不正"
+
+# K84
+msgid "Invalid input contents of member ID"
+msgstr "会員ID の入力内容不正"
+
+# K85
+msgid "Invalid input contents of member password"
+msgstr "会員パスワードの入力内容不正"
+
+# K86
+msgid "'Processing number: ProcNo' scrutiny error"
+msgstr "項目「処理番号：ProcNo」精査エラー"
+
+# K87
+msgid "'POST URL: PostUrl' scrutiny error"
+msgstr "項目「POST用URL：PostUrl」精査エラー"
+
+# K88
+msgid "Original deal duplication error"
+msgstr "元取引重複エラー"
+
+# K89
+msgid "Duplicate error of processing number"
+msgstr "処理番号の重複エラー"
+
+# K96
+msgid "Communication failure occurred in the system (timeout)"
+msgstr "本システム通信障害発生（タイムアウト）"
+
+# K98
+msgid "Minor failure occurred in the system inside"
+msgstr "本システム内部で軽度障害が発生"
+
+# K99 C98 C99 W99
+msgid "Other exception error"
+msgstr "その他例外エラー"
+
+# KA1
+msgid "'Currency code: CurrencyId' scrutiny error"
+msgstr "項目「通貨コード：CurrencyId」精査エラー"
+
+# KBX
+msgid "Double transaction error"
+msgstr "二重取引エラー"
+
+# KBY
+msgid "Processing incomplete error"
+msgstr "処理未完了エラー"
+
+# KBZ
+msgid "No original transaction error"
+msgstr "元取引なしエラー"
+
+# KG8
+msgid "Failed operator authentication consecutively and was locked out."
+msgstr "事業者認証に連続して失敗し、ロックアウトされました。"
+
+# KGH
+msgid "Member reference message usage setting error"
+msgstr "会員参照電文利用設定エラー"
+
+# KH0
+msgid "Unknown response"
+msgstr "レスポンス不明"
+
+# KH4
+msgid "'PageLanguage' scrutiny error"
+msgstr "項目「PageLanguage」精査エラー"
+
+# KHS
+msgid "'SuccessURL' scrutiny error"
+msgstr "項目「SuccessURL」精査エラー"
+
+# KHT
+msgid "'ErrorURL' scrutiny error"
+msgstr "項目「ErrorURL」精査エラー"
+
+# KHU
+msgid "'StatusNoticeURL' scrutiny error"
+msgstr "項目「StatusNoticeURL」精査エラー"
+
+# KHV
+msgid "Auto-cancel has been executed, please try again."
+msgstr "自動取消実施済、再処理を行ってください。"
+
+# KHX
+msgid "'Token' scrutiny error"
+msgstr "項目「Token」精査エラー"
+
+# KHZ
+msgid "No token available error"
+msgstr "利用可能トークンなしエラー"
+
+# KI0
+msgid "Credit sales canceled (details unknown)"
+msgstr "与信売上計上中止（詳細不明）"
+
+# KI1
+msgid "'k_TokenNinsyoCode' scrutiny error"
+msgstr "項目「k_TokenNinsyoCode」精査エラー"
+
+# KI2
+msgid "Used token error"
+msgstr "使用済みトークンエラー"
+
+# KI3
+msgid "Token expiration error"
+msgstr "トークン有効期限切れエラー"
+
+# KI4
+msgid "'Terminal information' scrutiny error"
+msgstr "項目「端末情報」精査エラー"
+
+# KI5
+msgid "It is locked by continuous input of the same card number."
+msgstr "同一カード番号の連続入力によりロックされています。"
+
+# KI6
+msgid "The terminal is locked by continuous input from the same terminal."
+msgstr "同一端末からの連続入力により端末がロックされています。"
+
+# KI8
+msgid "There are two or more transaction targets."
+msgstr "取引の対象が複数件存在します。"
+
+# KIE
+msgid "'signature' scrutiny error"
+msgstr "項目「signature」精査エラー"
+
+# KIF
+msgid "signature Error, object identifier isn't included."
+msgstr "signature エラー、オブジェクト識別子が含まれていません。"
+
+# KIH
+msgid "signature Error, signature time exceeds the allowable time."
+msgstr "signature エラー、署名時間が許容時間を超えています。"
+
+# KIJ
+msgid "Token payment, ApplePay transaction authorization error"
+msgstr "トークン決済、ApplePay 取引許可エラー"
+
+# KIK
+msgid "Apple Pay membership transaction mismatch error"
+msgstr "Apple Pay 会員元取引不整合エラー"
+
+# KIL
+msgid "Normal member transaction mismatch error"
+msgstr "通常会員元取引不整合エラー"
+
+# KIW
+msgid "'KaiinIdAutoRiyoFlg' scrutiny error"
+msgstr "項目「KaiinIdAutoRiyoFlg」精査エラー"
+
+# C01
+msgid "Error related to e-SCOTT setting"
+msgstr "e-SCOTT 設定関連エラー"
+
+# C02
+msgid "e-SCOTT system error"
+msgstr "e-SCOTT システムエラー"
+
+# C03
+msgid "e-SCOTT communication error"
+msgstr "e-SCOTT 通信エラー"
+
+# C10 G78
+msgid "Payment indicator error"
+msgstr "支払区分エラー"
+
+# C11
+msgid "Bonus overtime period error"
+msgstr "ボーナス期間外エラー"
+
+# C12 G74
+msgid "Number of installments error"
+msgstr "分割回数エラー"
+
+# C13
+msgid "Expired error"
+msgstr "有効期限切れエラー"
+
+# C14
+msgid "Canceled error"
+msgstr "取消済みエラー"
+
+# C15
+msgid "Bonus amount lower limit error"
+msgstr "ボーナス金額下限エラー"
+
+# C16 G65
+msgid "Card number error"
+msgstr "カード番号エラー"
+
+# C17
+msgid "Card number system error"
+msgstr "カード番号体系エラー"
+
+# C18
+msgid "Card number system error subject to authorization exclusion"
+msgstr "オーソリ除外対象のカード番号体系エラー"
+
+# C70 C71
+msgid "Our company setting information error"
+msgstr "弊社設定情報エラー"
+
+# C80
+msgid "Credit card company center closed"
+msgstr "カード会社センター閉局"
+
+# G12
+msgid "Card unavailable"
+msgstr "カード使用不可"
+
+# G22
+# msgid "'G22' is set"
+# msgstr "「G22」が設定されている"
+# G22
+msgid "Prohibit payment permanently"
+msgstr "支払永久禁止"
+
+# G30
+msgid "Transaction decision pending"
+msgstr "取引判定保留"
+
+# G42
+msgid "PIN error"
+msgstr "暗証番号エラー"
+
+# K40 G44
+msgid "Security code error"
+msgstr "セキュリティコード誤り"
+
+# G45
+msgid "Security code input is none"
+msgstr "セキュリティコード入力無"
+
+# G54
+msgid "Error of the number of available use"
+msgstr "利用回数エラー"
+
+# G55
+msgid "Over limit amount"
+msgstr "限度額オーバー"
+
+# G56 G61
+msgid "Invalid card"
+msgstr "無効カード"
+
+# G60
+msgid "Accident card"
+msgstr "事故カード"
+
+# G68
+msgid "Amount error"
+msgstr "金額エラー"
+
+# G72
+msgid "Bonus amount error"
+msgstr "ボーナス額エラー"
+
+# G75
+msgid "Amount of installments error"
+msgstr "分割金額エラー"
+
+# G83
+msgid "Expiration date error"
+msgstr "有効期限エラー"
+
+# G84
+msgid "Authorization number error"
+msgstr "承認番号エラー"
+
+# G85
+msgid "CAFIS substitution error"
+msgstr "CAFIS 代行エラー"
+
+# G92
+msgid "Card company arbitrary error"
+msgstr "カード会社任意エラー"
+
+# G94
+msgid "Cycle sequence number error"
+msgstr "サイクル通番エラー"
+
+# G95
+msgid "The business online termination"
+msgstr "当該業務オンライン終了"
+
+# G96
+msgid "Accident card data error"
+msgstr "事故カードデータエラー"
+
+# G97
+msgid "The request rejection"
+msgstr "当該要求拒否"
+
+# G98
+msgid "The company-specific task error"
+msgstr "当該自社対象業務エラー"
+
+# G99
+msgid "Connection request refused acceptance of company"
+msgstr "接続要求自社受付拒否"
+
+# R01
+msgid "The system is not booting or is temporarily down. Please try again later."
+msgstr "システムが起動していないか、または一時的にダウンしています。しばらくしてからもう一度試してください。"
+
+# R02
+msgid "Message format error"
+msgstr "メッセージ形式のエラー"
+
+# R03
+msgid "Check for signature error."
+msgstr "署名エラーを確認してください。"
+
+# R04
+msgid "Missing message transaction key element."
+msgstr "メッセージ取引キー要素がありません。"
+
+# R05
+msgid "Transaction unsuccessful. Please use another UnionPay card."
+msgstr "取引不成立。他の銀聯決済カードを使用してください。"
+
+# R06
+msgid "Incorrect merchant status."
+msgstr "加盟店の状態が正しくありません。"
+
+# R07
+msgid "You are not entitled to this transaction."
+msgstr "この取引の権利はありません。"
+
+# R08
+msgid "Transaction amount exceeds the limit."
+msgstr "取引額が限度額を超過しています。"
+
+# R09
+msgid "Original transaction does not exist or is in an incorrect state."
+msgstr "元取引が存在していないか、または状態が正しくありません。"
+
+# R10
+msgid "Not match with original transaction information."
+msgstr "元取引情報と一致しません。"
+
+# R11
+msgid "The number of queries exceeds the limit or the frequency of operations is excessive."
+msgstr "照会の回数が限度を超えるか、オペレーションの頻度が過剰です。"
+
+# R12
+msgid "UnionPay risk limit"
+msgstr "銀聯リスク制限"
+
+# R13
+msgid "Out of transaction available hours."
+msgstr "取引の受付時間外です。"
+
+# R14
+msgid "You can deduct from your balance, but the payment available time has passed."
+msgstr "残高からの差し引きはできますが、決済時間を過ぎています。"
+
+# R15
+msgid "The card number is invalid. Please check and input again."
+msgstr "入力したカード番号が無効です。再度確認のうえ入力してください。"
+
+# R16
+msgid "Transaction unsuccessful. The issuing company does not support this merchant. Please change to a different bank card."
+msgstr "取引不成立。発行会社はこの加盟店に対応していません。別の銀行カードに変更してください。"
+
+# R17
+msgid "Incorrect card status"
+msgstr "カードの状態が正しくありません。"
+
+# R18
+msgid "Insufficient card balance"
+msgstr "カードの残高不足"
+
+# R19
+msgid "Eroor of PIN or expiration date or CVN2, transaction failed."
+msgstr "入力した PIN、有効期限または CVN2 のエラー、取引不成立。"
+
+# R20
+msgid "The entered cardholder ID information or mobile phone number is incorrect, verification failed."
+msgstr "入力したカード保有者ID情報または携帯電話番号が正しくない、検証不成立。"
+
+# R21
+msgid "The number of input limit of PIN exceeded."
+msgstr "PIN 入力回数の限度を超えています。"
+
+# R22
+msgid "Your bank card is currently unavailable this transaction."
+msgstr "あなたの銀行カードは現在この取引には対応していません。"
+
+# R23
+msgid "Trial time limit exceeded, transaction failed."
+msgstr "試行時間の限度超過、取引不成立。"
+
+# R24
+msgid "The transaction has been redirected. Please wait until the cardholder entry screen appears."
+msgstr "取引はリダイレクトされました。カード保有者入力画面になるまでお待ちください。"
+
+# R25
+msgid "The dynamic password or SMS authentication code cannot be verified."
+msgstr "動的パスワードまたは SMS 認証コードの確認ができません。"
+
+# R26
+msgid "You have not signed up for UnionPay payment service at a bank counter or online bank."
+msgstr "銀行窓口またはオンライン銀行で銀聯決済サービスにサインアップしていません。"
+
+# R27
+msgid "Payment card has expired."
+msgstr "決済カードの有効期限が過ぎています。"
+
+# R28
+msgid "Validation require an encryption verification."
+msgstr "有効化には暗号検証が必要です。"
+
+# R29
+msgid "This bank card is not activated for verified payments."
+msgstr "この銀行カードは認証済の支払いに有効化されていません。"
+
+# R30
+msgid "An issuing company's trading rights are restricted. Please contact the issuing company."
+msgstr "発行会社の取引権が制限されています。発行会社にお問い合わせください。"
+
+# R31
+msgid "The bank card is valid, but the issuing company does not support SMS authentication."
+msgstr "銀行カードは有効ですが、発行会社が SMS認証に対応していません。"
+
+# R32
+msgid "File doesn't exist."
+msgstr "ファイルが存在しません。"
+
+# R33
+msgid "General error"
+msgstr "一般的エラー"
+
+# R34 R35
+msgid "Please contact SLN."
+msgstr "SLN にお問い合わせください。"
+
+# R36
+msgid "This transaction doesn't exist."
+msgstr "この取引はありませんでした。"
+
+# R37
+msgid "Transaction failed. Please contact the issuing company for details."
+msgstr "取引不成立。詳細は発行会社に問い合わせてください。"
+
+# U01
+msgid "The end user's 3D Secure password is not set."
+msgstr "エンドユーザーの3Dセキュアパスワードが未設定です。"
+
+# U02
+msgid "This card company doesn't conpliant with 3D Secure."
+msgstr "3Dセキュア未対応カード発行会社です。"
+
+# U03
+msgid "The brand server or issuer server failed and could not be authenticated."
+msgstr "ブランドサーバー、または、イシュアサーバーに障害が発生し認証できませんでした。"
+
+# U04
+msgid "3D Secure authentication couldn't be executed. Depending on the standards of card companies, it may be NG without displaying the 3D Secure authentication screen."
+msgstr "3Dセキュア認証ができませんでした。各カード会社の基準により3Dセキュア認証画面を表示せずにNGとなる場合がございます。"
+
+# U05
+msgid "The authentication system checked for tampering and 3D Secure authentication failed."
+msgstr "認証システムで改ざんをチェックし3Dセキュア認証ができませんでした。"
+
+# U06
+msgid "A timeout (over 40 minutes) occurred by end-user operation."
+msgstr "エンドユーザーの操作でタイムアウト（40分以上経過）が発生しました。"
+
+# U07
+msgid "The same message was received during message processing in the authentication system."
+msgstr "認証システムにて電文処理中に同じ電文を受信しました。"
+
+# U08
+msgid "A duplicate message was received after the session information was deleted."
+msgstr "セッション情報が削除された後に重複した電文を受信しました。"
+
+# U09
+msgid "This brand doesn't conpliant with 3D Secure."
+msgstr "3Dセキュア未対応ブランドです。"
+
+# U10
+msgid "The 3D Secure authentication couldn't be executed because the branded server stopped or failed connection."
+msgstr "ブランドのサーバーが停止、または接続不可により3Dセキュア認証ができませんでした。"
+
+# U11
+msgid "Authentication system scrutiny error"
+msgstr "認証システム精査エラー"
+
+# U12
+msgid "Merchant authentication error"
+msgstr "加盟店認証エラー"
+
+# U13
+msgid "Authentication system item error"
+msgstr "認証システム項目エラー"
+
+# U14
+msgid "If a planned stoppage guidance has been notified, wait for the planned stoppage to end and reprocess."
+msgstr "計画停止案内が通知されている場合は、計画停止終了を待って再処理を行ってください。"
+
+# U95
+msgid "Failed the process temporarily. Please retry."
+msgstr "一時的に処理できませんでした。リトライしてください。"
+
+# U96
+msgid "If a failure report has been notified, wait for the recovery report and reprocess."
+msgstr "障害報が通知されている場合は、回復報を待って再処理を行ってください。"
+
+# U99
+msgid "Unexpected error"
+msgstr "想定外エラー"
+
+# W01
+msgid "Online Payment Collection Agency Service setting error"
+msgstr "オンライン収納代行サービス設定エラー"
+
+# W02
+msgid "Setting value error"
+msgstr "設定値エラー"
+
+# W03
+msgid "Online Payment Collection Agency Service internal error (Web type)"
+msgstr "オンライン収納代行サービス内部エラー（Web系）"
+
+# W04
+msgid "System setting error"
+msgstr "システム設定エラー"
+
+# W05
+msgid "Item setting error"
+msgstr "項目設定エラー"
+
+# W06
+msgid "Online Payment Collection Agency Service internal error (DB type)"
+msgstr "オンライン収納代行サービス内部エラー（DB系）"
+
+msgid "Sorry, please contact the administrator via the inquiry form."
+msgstr "恐れ入りますが、お問い合わせフォームより管理者にお問い合わせください。"
+
+msgid "Credit card number is not appropriate."
+msgstr "指定のカード番号が適切ではありません。"
+
+msgid "Card expiration date is not appropriate."
+msgstr "カード有効期限が適切ではありません。"
+
+msgid "Security code is not appropriate."
+msgstr "セキュリティコードが適切ではありません。"
+
+msgid "Credit card information is not appropriate."
+msgstr "カード情報が適切ではありません。"
+
+msgid "Please change the payment method due to the error of minimum amount of bonus payment."
+msgstr "ボーナス払いの下限金額未満によるエラーのため、支払方法を変更して再処理を行ってください。"
+
+msgid "Credit card is unusable."
+msgstr "クレジットカードが使用不可能です。"
+
+msgid "It is over 1 day usage or over amount."
+msgstr "１日利用回数または金額オーバーです。"
+
+msgid "It is over limit for 1 day amount."
+msgstr "１日利用限度額オーバーです。"
+
+msgid "Amount is not appropriate."
+msgstr "金額が適切ではありません。"
+
+msgid "It is lower than the lower limit of installment payment."
+msgstr "分割払いの下限金額を下回っています。"
+
+msgid "Customer telephone number is not appropriate."
+msgstr "お客様電話番号が適切ではありません。"
+
+msgid "Customer name is not entered properly."
+msgstr "お客様氏名が適切に入力されていません。"
+
+msgid "Customer kana name is not entered properly."
+msgstr "お客様氏名カナが適切に入力されていません。"
+
+msgid "3D Secure authentication failed."
+msgstr "3D セキュア認証ができませんでした。"
+
+#: includes/class-spfwc-payment-request.php
+#: includes/class-spfwc-payment-response-handler.php
+msgid "Payment completed in %s."
+msgstr "%sで入金がありました。"
+
+#: includes/class-spfwc-payment-support.php
+msgid "SonyPayment Card Member"
+msgstr "ソニーペイメントカード会員"
+
+msgid "Last 4 digits of the saved card number"
+msgstr "登録済みカード番号下4桁"
+
+msgid "Delete a card member information registered in SonyPayment."
+msgstr "ソニーペイメントに登録したカード会員情報を削除します。"
+
+msgid "Don't delete in case of the sales isn't recorded or the subscription products is ongoing."
+msgstr "売上計上されていないときと、定期購入商品の継続中は、削除しないでください。"
+
+msgid "First name (kana)"
+msgstr "名（カナ）"
+
+msgid "Last name (kana)"
+msgstr "姓（カナ）"
+
+msgid "First name kana"
+msgstr "メイ"
+
+msgid "Last name kana"
+msgstr "セイ"
+
+#: includes/class-spfwc-sln-connection.php
+msgid "TLS 1.2 connection failed."
+msgstr "TLS1.2接続に失敗しました。"
+
+msgid "SSL connection failed."
+msgstr "SSL接続に失敗しました。"
+
+msgid "Timeout occurred during communication."
+msgstr "通信中にタイムアウトが発生しました。"
+
+msgid "Failed to disconnect from SLN."
+msgstr "SLNとの切断に失敗しました。"
+
+msgid "Timeout setting failed."
+msgstr "タイムアウト設定に失敗しました。"
+
+msgid "Invalid request parameter specification."
+msgstr "リクエストパラメータの指定が正しくありません。"
+
+#: includes/spfwc-form-cardmember.php
+msgid "Save changes"
+msgstr "変更を保存"
+
+msgid "Delete the saved card member"
+msgstr "カード会員情報を削除"
+
+msgid "Update processing failed. Please retry."
+msgstr "更新処理に失敗しました。再度お試しください。"
+
+#: includes/spfwc-functions.php
+msgid "M j, Y @ G:i:s"
+msgstr "Y年n月j日 @ G:i:s"
+
+msgid "M j, Y @ G:i"
+msgstr "Y年n月j日 @ G:i"
+
+msgid "M j, Y"
+msgstr "Y年n月j日"
+
+msgid "Card check"
+msgstr "カードチェック"
+
+msgid "Credit"
+msgstr "与信"
+
+msgid "Sales recorded"
+msgstr "売上計上"
+
+msgid "Credit sales recorded"
+msgstr "与信売上計上"
+
+msgid "Amount change"
+msgstr "利用額変更"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Transaction reference"
+msgstr "取引参照"
+
+msgid "Re-authorization"
+msgstr "再オーソリ"
+
+msgid "Register"
+msgstr "登録"
+
+msgid "Change"
+msgstr "変更"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "New member"
+msgstr "会員新規"
+
+msgid "Update member"
+msgstr "会員更新"
+
+msgid "Invalid member"
+msgstr "会員無効"
+
+msgid "Member reference"
+msgstr "会員参照"
+
+msgid "Cancellation of member"
+msgstr "会員無効解除"
+
+msgid "Delete member"
+msgstr "会員削除"
+
+msgid "Foreign currency credit"
+msgstr "外貨与信"
+
+msgid "Foreign currency credit sales settled"
+msgstr "外貨与信売上確定"
+
+msgid "Foreign currency sales settled"
+msgstr "外貨売上確定"
+
+msgid "Foreign currency cancellation"
+msgstr "外貨取消"
+
+msgid "Resume of foreign currency transactions"
+msgstr "外貨取引保留解除"
+
+msgid "Payment"
+msgstr "入金"
+
+msgid "Expired"
+msgstr "期限切れ"
+
+msgid "Lawson"
+msgstr "ローソン"
+
+msgid "Family Mart"
+msgstr "ファミリーマート"
+
+msgid "Thanks"
+msgstr "サンクス"
+
+msgid "Circle K"
+msgstr "サークルK"
+
+msgid "Pay-easy (ATM)"
+msgstr "Pay-easy（ATM）"
+
+msgid "Pay-easy (online)"
+msgstr "Pay-easy（オンライン）"
+
+msgid "Pay-easy (information link)"
+msgstr "Pay-easy（情報リンク）"
+
+msgid "Seven-Eleven"
+msgstr "セブンイレブン"
+
+msgid "Ministop"
+msgstr "ミニストップ"
+
+msgid "Daily Yamazaki"
+msgstr "デイリーヤマザキ"
+
+msgid "Rakuten Bank"
+msgstr "楽天銀行"
+
+msgid "Japan Net Bank"
+msgstr "ジャパンネット銀行"
+
+msgid "Edy"
+msgstr "Edy"
+
+msgid "Suica"
+msgstr "Suica"
+
+msgid "Three F"
+msgstr "スリーエフ"
+
+msgid "Jibun Bank"
+msgstr "じぶん銀行"
+
+msgid "Shumishin SBI Net Bank"
+msgstr "住信SBIネット銀行"
+
+msgid "Seico Mart"
+msgstr "セイコーマート"
+
+msgid "JCB Premo"
+msgstr "JCBプレモ"
+
+msgid "* Cautions on Use of Credit Cards"
+msgstr "■利用上の注意"
+
+msgid "In order to prevent unauthorized use of your credit card through theft of information such as your credit card number, we use \"EMV 3D Secure,\" an identity authentication service recommended by international brands."
+msgstr "クレジットカード番号などの情報の盗用による不正利用を防ぎ、安全にクレジットカードをご利用いただくため、国際ブランドの推奨する本人認証サービス「EMV3Dセキュア」を用いています。"
+
+msgid "In order to use EMV 3D Secure, it is necessary to send information about you to the card issuer."
+msgstr "EMV3Dセキュアを利用するためには、カード発行会社に、お客様に関する情報などを送信する必要がございます。"
+
+msgid "Please read \"* Provision of Personal Information to Third Parties\" below and enter your card information only if you agree to the terms of the agreement."
+msgstr "以下の「■個人情報の第三者提供」をご確認いただき、同意の上カード情報をご入力ください。"
+
+msgid "* Provision of Personal Information to Third Parties"
+msgstr "■個人情報の第三者提供"
+
+msgid "The following personal information, etc. collected from customers will be provided to the issuer of the card being used by the customer for the purpose of detecting and preventing fraudulent use by the card issuer."
+msgstr "お客様から収集した以下の個人情報等は、カード発行会社が行う不正利用検知・防止のために、お客様が利用されているカードの発行会社へ提供させていただきます。"
+
+msgid "\"Full name\", \"e-mail address\", \"Membership information held by the business\", \"IP address\", \"device information\", \"Information on the Internet usage environment\", and \"Billing address\"."
+msgstr "「氏名」、「email アドレス」、「事業者が保有する会員情報」、「IPアドレス」、「デバイス情報」、「インターネット利用環境に関する情報」、「請求書送付先住所」"
+
+msgid "If the issuer of the card you are using is located in a foreign country, these information may be transferred to the country to which such issuer belongs."
+msgstr "お客様が利用されているカードの発行会社が外国にある場合、これらの情報は当該発行会社が所属する国に移転される場合があります。"
+
+msgid "If you are a minor, you are required to obtain the consent of a person with parental authority or a guardian before using the Service."
+msgstr "お客様が未成年の場合、親権者または後見人の承諾を得た上で、本サービスを利用するものとします。"
+
+msgid "* Agreement to provide personal information to a third party"
+msgstr "■個人情報の第三者提供についての同意"
+
+msgid "If you agree to the above \"* Provision of Personal Information to Third Parties\", please check the \"I agree to the handling of personal information\" checkbox and press \"Place order\"."
+msgstr "上記「■個人情報の第三者提供」について同意いただける場合は、「個人情報の取り扱いに同意する」にチェックを入れて「注文する」を押してください。"
+
+msgid "* Safety Control Measures"
+msgstr "■安全管理措置について"
+
+msgid "We may provide all or part of the information obtained from our customers to subcontractors in the United States."
+msgstr "お客様から取得した情報の全部または一部をアメリカ合衆国の業務委託先に提供する場合があります。"
+
+msgid "We will confirm that the subcontractor takes necessary and appropriate measures for the safe management of the information before storing it."
+msgstr "かかる業務委託先において情報の安全管理のために必要かつ適切な措置が行われていることを確認の上、保存を行います。"
+
+msgid "For an overview of the legal system regarding the protection of personal information in the relevant country, please check here."
+msgstr "なお、当該国の個人情報保護に関する法制度の概要はこちらからご確認ください。"
+
+msgid "I agree to the handling of personal information"
+msgstr "個人情報の取り扱いに同意する"
+
+msgid "Please check the \"I agree to the handling of personal information\" checkbox."
+msgstr "「個人情報の取り扱いに同意する」にチェックを入れてください。"
+
+msgid "[About 3D Secure]"
+msgstr "【3Dセキュアについて】"
+
+msgid "If you do not use 3D Secure (do not check the \"Use\" box), the merchant is responsible for payment due to fraudulent use of the credit card."
+msgstr "3Dセキュアをご利用されない場合（「利用する」にチェックを入れない場合）は、クレジットカードの不正利用等による支払いは加盟店様の責任となります。"
+
+msgid "Even if we have already paid the merchant an amount equivalent to the sales proceeds, the merchant must return the amount to us upon request for a chargeback (return of sales proceeds) from the credit card company."
+msgstr "当社から加盟店様に売上代金相当額をお支払い済みであっても、カード会社からのチャージバック（売上代金の返還）請求により当社に返金いただくことになります。"
+
+msgid "Please note that chargebacks may occur even if you select \"Use\". Please understand this in advance."
+msgstr "「利用する」を選択された場合であっても、チャージバックは発生する場合があります。あらかじめご了承ください。"
+
+msgid "If you have applied for the EMV 3D Secure service, please be sure to select \"Use\"."
+msgstr "EMV3Dセキュアサービスをお申込みいただいた場合は、必ず「利用する」を選択してください。"
+
+msgid "[Note on chargebacks]"
+msgstr "【チャージバックに関する留意事項】"
+
+msgid "* Even if sales approval has been obtained (when the authorization result is OK), chargebacks will still be incurred."
+msgstr "・売上承認を得ている場合（オーソリ結果がOKの場合）であっても、チャージバックは発生します。"
+
+msgid "* If chargebacks occur, there is no compensation or reimbursement by us or the credit card companies. The merchant is responsible for all charges."
+msgstr "・チャージバックが発生した場合、当社やカード会社による補償、補填はありません。全て加盟店様の負担となります。"
+
+msgid "* Chargebacks will be incurred regardless of whether the merchant's intentional or negligent conduct is involved."
+msgstr "・チャージバックは、加盟店様の故意・過失の有無を問わず発生します。"
+
+msgid "Please be sure to confirm the following before starting to use the service."
+msgstr "ご利用開始前に、下記を必ずご確認ください。"
+
+msgid "About chargebacks"
+msgstr "チャージバックについて"
+
+msgid "Handling of personal information"
+msgstr "個人情報の取扱"
+
+msgid "Agreed"
+msgstr "同意済"
+
+msgid "Order Status"
+msgstr "注文ステータス"
+
+msgid "Set to 'Processing'"
+msgstr "「処理中」にする"
+
+msgid "Set to 'Completed'"
+msgstr "「完了」にする"
+
+msgid "If the 'Operation mode' is set to 'Credit' or if a non-virtual item is purchased, the transaction status will be 'Processing' even if 'Completed' is selected."
+msgstr "「完了」を選択しても、「処理区分」が「与信」に設定されている場合や、バーチャル商品以外を購入した場合は「処理中」となります。"
+
+msgid "Set to 'Processing' after payment is received"
+msgstr "入金後「処理中」にする"
+
+msgid "Set to 'Completed' after payment is received"
+msgstr "入金後「完了」にする"
+
+msgid "If a non-virtual item is purchased, it will be 'Processing' even if 'Completed' is selected."
+msgstr "「完了」を選択しても、バーチャル商品以外を購入した場合は「処理中」となります。"
